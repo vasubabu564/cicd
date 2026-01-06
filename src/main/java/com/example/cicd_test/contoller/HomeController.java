@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@GetMapping("home")
 	public ResponseEntity<?> home(){
-		return new ResponseEntity<>("Welcome to cicd appication***", HttpStatus.OK);
+		return new ResponseEntity<>("Welcome to cicd appication", HttpStatus.OK);
 	}
 
 }
