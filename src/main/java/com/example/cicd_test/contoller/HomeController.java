@@ -20,7 +20,7 @@ public class HomeController {
 
 	@GetMapping("home")
 	public ResponseEntity<?> home() {
-		return new ResponseEntity<>("Welcome to CICD app", HttpStatus.OK);
+		return new ResponseEntity<>("Welcome to CICD app..", HttpStatus.OK);
 	}
 
 	@GetMapping("report")
